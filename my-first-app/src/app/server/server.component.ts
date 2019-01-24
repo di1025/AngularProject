@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms'; 
+
 @Component({
     selector:'app-server',
     templateUrl:'./server.component.html',

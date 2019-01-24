@@ -18,4 +18,5 @@ class="form-control"
     <p>No server was created!</p>
 </ng-template> -->
 <!-- <p>Server was created, server name is {{serverName}}</p> -->
-<p>{{serverCreationStatus}}</p>
+<!-- <p>{{serverCreationStatus}}</p> -->
+<app-server *ngFor="let server of servers"></app-server> <!-- loop the server in servers array -->
